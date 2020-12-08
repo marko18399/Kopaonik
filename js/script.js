@@ -1,13 +1,13 @@
 $(document).ready(function () {
     $(window).scroll(function () {
-        // sticky navbar on scroll script
+        // STICKY NAVIGACIONI MENI
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
         } else {
             $('.navbar').removeClass("sticky");
         }
     });
-    // toggle menu/navbar script
+    // PRIKAZI MOBILNI MENI
     $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
@@ -40,35 +40,3 @@ form.addEventListener('submit', (e) => {
     }
 })
 
-
-// function validacija() { 
-//     var name = document.forms["form"]["name"]; 
-//     var email = document.forms["form"]["mail"]; 
-//     var address = document.forms["form"]["message"]; 
-
-//     if (name.value == "") { 
-//         window.alert("Molimo Vas unesite svoje ime."); 
-//         name.focus(); 
-//         return false; 
-//     } 
-
-
-//     if (email.value == "") { 
-//         window.alert( 
-//           "Molimo Vas unesite e-mail."); 
-//         email.focus(); 
-//         return false; 
-//     } 
-//     if (message.value == "") { 
-//         window.alert( 
-//           "Molimo Vas unesite poruku."); 
-//         message.focus(); 
-//         return false; 
-//     }
-
-//     window.alert("Uspesno ste poslali poruku!");  
-//     $("#form").submit(function(e) {
-//         e.preventDefault();
-//     });
-// return true;
-// } 

@@ -95,9 +95,7 @@ section{
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
-/* .home .max-width{
-    margin: auto 0 auto 40px;
-} */
+
 .home .home-content{
     display: flex;
     justify-content: center;
@@ -522,7 +520,7 @@ footer{
 
 .footer-distributed .footer-center p a{
 	color:  rgba(114, 134, 159);
-	text-decoration: none;;
+	text-decoration: none;
 }
 
 
