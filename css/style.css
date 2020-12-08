@@ -630,7 +630,7 @@ footer{
         padding: 10px 30px;
     }
     .max-width{
-        max-width: 800px;
+        max-width: 1000px;
     }
     .about .about-content .column{
         width: 100%;
@@ -690,6 +690,45 @@ footer{
         font-size: 12px;
     }
     
+}
+
+@media (max-width: 490px) {
+    .home .home-content .text-1{
+        font-size: 20px;
+    }
+    .home .home-content .text-2{
+        font-size: 12px;
+    }
+    .max-width{
+        padding: 0 20px;
+    }
+    .footer-distributed{
+        padding:30px 20px;
+    }
+    .about{
+        padding:30px;
+    }
+    .activity-container{
+        margin-bottom: 20px;
+    }
+    .contact-left{
+        padding:40px;
+    }
+    .contact-info{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .contact-left>p{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .contact-left h2{
+        text-align: center;
+    }
 }
 
 @media (max-width: 880px) {
